@@ -1,6 +1,6 @@
 package FuntionalProgramming.FunctionalInterface;
 
 @FunctionalInterface
-public interface BinaryOperation {
-    int apply(int num1,int num2);
+public interface BinaryOperation <T>{
+    T apply(T num1,T num2);
 }
