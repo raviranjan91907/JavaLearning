@@ -12,6 +12,7 @@ public class ArithmeticOperators {
             %	    Modulus (remainder)	a % b
          */
 
+
         int a=10;
         int b=2;
         System.out.println(a+b);
@@ -23,6 +24,5 @@ public class ArithmeticOperators {
         String str1="Hello";
         String str2="World";
         System.out.println(str1+str2);
-        
     }
 }
