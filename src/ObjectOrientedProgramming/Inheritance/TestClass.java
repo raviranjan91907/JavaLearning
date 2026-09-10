@@ -1,6 +1,6 @@
 package ObjectOrientedProgramming.Inheritance;
 
-public class ObjectsClass {
+public class TestClass {
     public static void main(String args[]){
         AdvanceCalculator obj1=new AdvanceCalculator();
         int r1=obj1.add(1,2);
