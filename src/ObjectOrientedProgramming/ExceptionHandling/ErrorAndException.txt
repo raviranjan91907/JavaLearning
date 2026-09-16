@@ -1,0 +1,26 @@
+ERROR:
+There are three type of error in the programming language
+1)Compile time Error(syntax error):This error occur during compile time (javac) these are the common cause
+  Violating Java syntax, type mismatches, missing semicolons, or unresolved symbols.
+
+2)Runtime time Error(Exception):This error occur during runtime time(during program execute) these are come
+    common cause Illegal operations, invalid inputs, or environmental failures occurring while the code runs.
+
+3)Logical Error(Bugs):This error occur due to logical error done by the programmer this ie harder to find
+    because program run without crashing cause due to Faulty algorithm design, incorrect formulas, or bad business logic producing wrong results.
+
+
+Exception(Run time error are called Exception):
+In java, an Exception is an abnormal condition or unexpected event that occur during program execution and
+disrupts the normal flow of instructions. When an error occur within a method, java creates an object representing that error called an exception object and hands
+it off ot the runtime system(a process called throwing an exception).
+
+The Exception Hierarchy
+All exception and error types inherit form the root class java.lang.Throwable
+->Throwable: The top-level ancestor of every error and exception in java
+    ->Error: Represents sever system-level problems that applications typically should not attempt to catch(eg OutOfMemoryError, StackOverflowError)
+    ->Exception: Represent conditions  that a reasonable application might want to catch and recover form.
+
+Types of Exceptions
+->Checked Exceptions : Issue outside immediate program control(I/O, Database, network failures)
+->Unchecked Exception(Runtime) : Bugs, logic flaws or misuse of an API that inherit directly form RunTimeException.
