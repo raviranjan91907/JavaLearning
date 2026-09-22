@@ -7,6 +7,10 @@ public class AdvanceWayOfTakingUserInput {
         Scanner sc =new Scanner(System.in);
         int num =sc.nextInt();
         System.out.println(num);
+
+        sc.nextLine(); //this will consume the extra line putted enter(/n) after entering integer value at first
+
+
         String str=sc.nextLine();
         System.out.println(str);
     }

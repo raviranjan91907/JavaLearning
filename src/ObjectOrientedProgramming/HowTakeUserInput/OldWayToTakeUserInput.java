@@ -12,5 +12,6 @@ public class OldWayToTakeUserInput{
         int num=Integer.parseInt(bf.readLine());
 
         System.out.println(num);
+        bf.close();
     }
 }
