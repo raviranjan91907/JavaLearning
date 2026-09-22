@@ -1,8 +1,12 @@
 package ObjectOrientedProgramming.ExceptionHandling;
 
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class TryWithFinally {
-    public static void main(){
+    public static void main() throws IOException {
 /*
     In Java, try with finally is used when you want to make sure some code always executes,
      whether an exception occurs or not.
@@ -53,5 +57,20 @@ public class TryWithFinally {
             System.out.println("Finally block executed");
         }
 
+
+        BufferedReader bf=null;
+        try{
+            new BufferedReader(new InputStreamReader(System.in));
+            int num=Integer.parseInt(bf.readLine());
+        }
+        finally{
+            bf.close();
+        }
+
+        //this code is same as the above the difference is that above we have closes the bufferReader explicitly
+        try(BufferedReader bff=new BufferedReader(new InputStreamReader(System.in))){//there try will automatically close the bufferReader resource
+            int num=Integer.parseInt(bff.readLine());
+            System.out.println(num);
+        }
     }
 }
