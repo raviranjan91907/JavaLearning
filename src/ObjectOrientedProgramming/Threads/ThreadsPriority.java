@@ -11,6 +11,12 @@ class A1 extends Thread{
     public void run(){
         for(int i=0;i<100;i++){
             System.out.println("A");
+            try {
+                Thread.sleep(10);
+            }
+            catch(InterruptedException e){
+                e.printStackTrace();
+            }
         }
     }
 }
@@ -19,6 +25,12 @@ class B1 extends Thread{
     public void run(){
         for(int i=0;i<100;i++) {
             System.out.println("B");
+            try {
+                Thread.sleep(10);
+            }
+            catch(InterruptedException e){
+                e.printStackTrace();
+            }
         }
     }
 }
