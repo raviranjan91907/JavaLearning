@@ -1,0 +1,34 @@
+Collection: An interface in Java used to represent a group of objects.
+              Iterable
+                  |
+              Collection
+            /     |      \
+         List     Set    Queue
+          |        |       |
+      ArrayList  HashSet  PriorityQueue
+      LinkedList TreeSet
+
+     Collection<String> names = new ArrayList<>();
+     names.add("Ravi");
+     names.add("Amit");
+
+Collections: A utility class containing static methods for manipulating collections, such as sorting, reversing, and searching.
+
+    It contains static methods that help us perform operations on collections.
+    ArrayList<Integer> numbers = new ArrayList<>();
+    numbers.add(30);
+    numbers.add(10);
+    numbers.add(20);
+
+Collection API: A set of interfaces and classes in Java that provides a standard way to store and manipulate groups of objects.
+
+
+Collection
+    → Interface
+
+Collections
+    → Utility class
+
+Collection API
+    → Overall framework/API for working with groups of objects
+
