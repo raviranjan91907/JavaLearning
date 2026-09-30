@@ -87,5 +87,7 @@ public class ListLearning {
         System.out.println(nums);
         nums.set(0, 1213);
         System.out.println(nums);
+
+
     }
 }
