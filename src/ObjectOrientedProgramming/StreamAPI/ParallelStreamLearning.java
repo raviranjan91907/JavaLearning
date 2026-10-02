@@ -104,5 +104,6 @@ public class ParallelStreamLearning {
         System.out.println("Seq "+ (sqEnd2-sqStart2));
         System.out.println("para "+(parEnd2-parStart2));
 
+
     }
 }
