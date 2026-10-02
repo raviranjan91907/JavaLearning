@@ -2,7 +2,7 @@ package LocalVariableAndTypeInference;
 
 
 /*
-    Local Variable Type Inference means Java can automatically determine the data type of a local variable from the value assigned to it.
+    Local Variable Type Inference is a Java feature introduced in Java 10 that allows the compiler to automatically determine the type of a local variable using the var keyword based on the value assigned to it.
 
     Why is it called "local variable" type inference?
 
