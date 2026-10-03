@@ -34,6 +34,14 @@ class Student{
     public void setAge(String age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                '}';
+    }
 }
 public class ConstructorReference {
     public static void main(String args[]){
