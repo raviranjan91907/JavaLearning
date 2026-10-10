@@ -14,8 +14,6 @@ package ObjectOrientedProgramming.RecordClass;
     All the variable in the record class is final
  */
 
-import java.util.Objects;
-
 //Normal class.
 //class Student{
 //    private int rollNo;
