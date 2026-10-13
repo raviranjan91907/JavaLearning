@@ -3,8 +3,9 @@ package com.JUnit.Learning;
 import com.Junit.Learning.AreaCalculator;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import java.util.*;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AreaCalculatorTest {
 
@@ -41,4 +42,20 @@ public class AreaCalculatorTest {
         //There this test is going to pass because the result and the expected result is not equal
 
     }
+
+    /*
+     assertTrue() checks whether a given condition is true. If the condition is false, the test fails.
+     */
+    @Test
+    void CheckingAssertTrue(){
+        assertTrue(true);
+    }
+
+    /*assertFalse() checks whether a given condition is false. If the condition is true, the test fails.*/
+    @Test
+    void checkAssertFalse(){
+        assertFalse(false);
+    }
+
+
 }
