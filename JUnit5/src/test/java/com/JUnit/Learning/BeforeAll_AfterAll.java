@@ -9,6 +9,16 @@ They are useful when you want to perform some setup or cleanup only one time for
 
 public class BeforeAll_AfterAll {
 
+     /*
+    Note:->
+        Why do we use static with @BeforeAll and @AfterAll?
+        By default, JUnit 5 creates a separate test class instance for each test method. Therefore, @BeforeAll and @AfterAll methods must be static, because they run at the class level rather than on an individual test instance.
+     */
+     BeforeAll_AfterAll(){
+         System.out.println("Constructor of class run after every object creation");
+     }
+
+
     /*
     @BeforeAll tells JUnit 5 to execute a method once before all @Test methods in a test class.
     Common uses:
@@ -55,9 +65,5 @@ public class BeforeAll_AfterAll {
     static void destroyOnce(){
         System.out.println("After All");
     }
-    /*
-    Note:->
-        Why do we use static with @BeforeAll and @AfterAll?
-        By default, JUnit 5 creates a separate test class instance for each test method. Therefore, @BeforeAll and @AfterAll methods must be static, because they run at the class level rather than on an individual test instance.
-     */
+
 }
