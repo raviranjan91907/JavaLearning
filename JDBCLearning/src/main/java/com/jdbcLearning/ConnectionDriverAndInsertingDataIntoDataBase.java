@@ -1,7 +1,7 @@
 package com.jdbcLearning;
 
 import java.sql.*;
-public class ConnectionDriver {
+public class ConnectionDriverAndInsertingDataIntoDataBase {
     public static void main(String[] args) throws ClassNotFoundException,SQLException{
 
 

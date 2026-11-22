@@ -16,6 +16,7 @@ public class FetchingDataFromDataBase {
         //Retrieving data form DataBase
         String retrievingQuery="SELECT * FROM studentInfo";
 
+
         ResultSet resultSet=st.executeQuery(retrievingQuery);
 
         while(resultSet.next()){
