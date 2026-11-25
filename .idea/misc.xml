@@ -7,10 +7,14 @@
         <option value="$PROJECT_DIR$/JUnit5/pom.xml" />
         <option value="$PROJECT_DIR$/JDBCLearning/pom.xml" />
         <option value="$PROJECT_DIR$/ServletLearning/pom.xml" />
+        <option value="$PROJECT_DIR$/CreatingFirstServlet/pom.xml" />
+        <option value="$PROJECT_DIR$/ServletLifeCycle/pom.xml" />
+        <option value="$PROJECT_DIR$/SecondServlet/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/SecondServlet/pom.xml" />
         <option value="$PROJECT_DIR$/ServletLearning/pom.xml" />
       </set>
     </option>

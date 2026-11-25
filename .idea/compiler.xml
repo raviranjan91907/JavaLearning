@@ -7,11 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JDBCLearning" />
+        <module name="SecondServlet" />
+        <module name="ServletLearning" />
         <module name="JUnit5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CreatingFirstServlet" target="1.8" />
+      <module name="SecondServlet" target="1.8" />
       <module name="ServletLearning" target="1.8" />
+      <module name="ServletLifeCycle" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
