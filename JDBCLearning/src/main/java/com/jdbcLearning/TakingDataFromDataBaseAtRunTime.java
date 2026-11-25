@@ -91,14 +91,14 @@ public class TakingDataFromDataBaseAtRunTime {
         Connection con =JdbcUtil.getConnection();
 
         //Inserting Data
-//        insertData(con,sc);
+        insertData(con,sc);
 
 
         //Updating the data
 //        updateData(con,sc);
 
         //Deleting the data
-        deleteData(con,sc);
+//        deleteData(con,sc);
 
 
         //Displaying data

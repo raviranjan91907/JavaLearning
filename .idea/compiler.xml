@@ -10,5 +10,8 @@
         <module name="JUnit5" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ServletLearning" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

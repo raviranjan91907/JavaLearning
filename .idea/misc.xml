@@ -6,7 +6,13 @@
       <list>
         <option value="$PROJECT_DIR$/JUnit5/pom.xml" />
         <option value="$PROJECT_DIR$/JDBCLearning/pom.xml" />
+        <option value="$PROJECT_DIR$/ServletLearning/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ServletLearning/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" default="true" project-jdk-name="26" project-jdk-type="JavaSDK">
