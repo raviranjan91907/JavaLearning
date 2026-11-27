@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+
+<h1>User Information Form</h1>
+
+<form action="./DoGetServlet" method="get">
+
+<!--    action="student": Specifies the URL where the form data will be sent.-->
+<!--    method="post": Specifies that the browser should send the data using the HTTP POST method.-->
+
+    <label for="name">Enter Your Name:</label>
+    <input type="text" id="name" name="username"
+           placeholder="Enter your name" required>
+
+    <br><br>
+
+    <label for="city">Enter Your City:</label>
+    <input type="text" id="city" name="city"
+           placeholder="Enter your city" required>
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>

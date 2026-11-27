@@ -4,27 +4,25 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body bgcolor="cyan">
+<body>
 
-<h1>User Information Form</h1>
+<h1>Student Registration</h1>
 
-<form action="./DoGetServlet" method="get">
+<form action="student" method="post">
 
-    <label for="name">Enter Your Name:</label>
-    <input type="text" id="name" name="username"
-           placeholder="Enter your name" required>
-
+    Enter Name:
+    <input type="text" name="username">
     <br><br>
 
-    <label for="city">Enter Your City:</label>
-    <input type="text" id="city" name="city"
-           placeholder="Enter your city" required>
-
+    Enter Age:
+    <input type="number" name="age">
     <br><br>
 
-    <input type="submit" value="Submit">
+    <button type="submit">Submit</button>
 
 </form>
+
+</body>
 
 </body>
 </html>

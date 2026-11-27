@@ -59,7 +59,7 @@ import java.io.PrintWriter;
 
     Important: When should we call it?
     Usually, set the content type before obtaining the response writer and writing the response:
-    
+
  */
 
 @WebServlet("/DoGetServlet")
