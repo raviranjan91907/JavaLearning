@@ -22,15 +22,18 @@ public class DoPostServlet extends HttpServlet {
         String name = request.getParameter("username");
         String age = request.getParameter("age");
 
-        // Set response type
-        response.setContentType("text/html;charset=UTF-8");
+//        response.setHeader("studentName", name);
+//        response.setHeader("studentAge", age);
 
-        // Send response to browser
-        PrintWriter out = response.getWriter();
+        response.sendRedirect(
+                request.getContextPath() +
+                        "/registrationSuccess.jsp?name=" + name + "&age=" + age
+        );
 
-        out.println("<h1>Registration Successful!</h1>");
-        out.println("<h2>Name: " + name + "</h2>");
-        out.println("<h2>Age: " + age + "</h2>");
+//        response.sendRedirect(request.getContextPath() +"/registrationSuccess.js");
+//        this well not sent the data to jsp
+
+
     }
     
 }
